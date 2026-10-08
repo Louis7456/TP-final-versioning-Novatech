@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #24313b;
+    background-color: #f4f7f5;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 8%;
+    background-color: #172a24;
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    gap: 1.25rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #70d69a;
+}
+
+.Hero {
+    padding: 5rem 8%;
+    text-align: center;
+}
+
+.Hero h1 {
+    margin: 0 0 1rem;
+    color: #172a24;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.Hero p {
+    max-width: 40rem;
+    margin: 0 auto;
+    line-height: 1.6;
+}
